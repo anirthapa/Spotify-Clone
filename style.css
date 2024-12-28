@@ -10,6 +10,7 @@ body {
 .container {
   display: flex;
   flex-direction: row;
+  height: 90vh;
 }
 
 .h1 {
@@ -259,7 +260,7 @@ h4 {
   margin-top: 10px;
   border-radius: 10px;
   align-self: center;
-  background-color: blue;
+  background-color: #444445;
   width: 90%;
   height: 140px;
   display: flex;
@@ -276,7 +277,7 @@ h4 {
 
 .box {
   margin-top: 10px;
-  background-color: red;
+  background-color: #444445;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -292,4 +293,100 @@ h4 {
   margin: 10px;
   width: 20%;
   height: 50px;
+}
+
+.last {
+  margin-top: 0px;
+  background-color: #121212;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+  height: 70px;
+  flex-direction: row;
+  border: 1px solid red;
+}
+
+.left-side img {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.txt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10px;
+  color: #fff;
+}
+
+.txt h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.txt p {
+  font-weight: 300;
+}
+
+.middle {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.upper {
+  gap: 20px;
+  color: #fff;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+.lower {
+  justify-content: space-between;
+  gap: 10px;
+  display: flex;
+  color: #fff;
+}
+
+.right {
+  color: #fff;
+  display: flex;
+  align-self: center;
+  padding-right: 10px;
+  gap: 20px;
+  font-weight: 200;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+input {
+  width: 250px;
+  height: 3px;
+  appearance: none;
+  background-color: #ccc;
+  /* outline: none; */
+}
+input[type="range"]::-webkit-slider-thumb {
+  width: 7px;
+  height: 7px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  appearance: none;
+  cursor: pointer;
 }
