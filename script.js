@@ -11,11 +11,3 @@ export const spotifyApi = {
     return response.json();
   },
 };
-
-const accessToken = "YOUR_SPOTIFY_ACCESS_TOKEN";
-// Replace with your actual Spotify access token
-
-// Example usage:
-spotifyApi.getPlaylist("37i9dQZF1DXcBWIGoYBM5M").then((data) => {
-  console.log(data);
-});
