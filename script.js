@@ -11,3 +11,5 @@ export const spotifyApi = {
     return response.json();
   },
 };
+
+const accessToken = "YOUR_SPOTIFY_ACCESS_TOKEN";
