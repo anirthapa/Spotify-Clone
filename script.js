@@ -11,3 +11,4 @@ export const spotifyApi = {
     return response.json();
   },
 };
+
